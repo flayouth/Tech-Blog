@@ -1,6 +1,4 @@
-<head>
-  <title>TechBlog</title>
-</head>
+
 <body>
   <h1>Welcome to TechBlog</h1>
   <p>TechBlog is a platform for sharing technology-related content with the world. Whether you're a developer, designer, or tech enthusiast, we welcome you to share your insights, knowledge, and experiences.</p>
