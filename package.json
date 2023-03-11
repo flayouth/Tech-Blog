@@ -1,0 +1,36 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": " tech blog is a website or online platform where writers share their knowledge, insights, and opinions on various technology-related topics such as software development, programming languages, artificial intelligence, cybersecurity, and digital marketing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flayouth/Freestyle-Tech-Blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flayouth/Freestyle-Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/flayouth/Freestyle-Tech-Blog#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-session-sequelize": "^7.1.5",
+    "dotenv": "^16.0.3",
+    "eslint": "^8.36.0",
+    "exphbs": "^1.2.0",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.2",
+    "express-session": "^1.17.3",
+    "handlebars": "^4.7.7",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.21",
+    "prettier": "^2.8.4",
+    "sequelize": "^6.29.3"
+  }
+}

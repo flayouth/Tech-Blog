@@ -1,0 +1,22 @@
+{{#if logged_in}}
+  <a href="../public/js/profile.js">Profile</a>
+  <a href="../public/js/">Logout</a>
+{{else}}
+  <a href="../public/js/login.js">Login</a>
+  <a href="../public/js/profile.js">Sign up</a>
+{{/if}}
+
+<h1>Welcome to Tech Blog!</h1>
+
+{{#if blogposts.length}}
+  {{#each blogposts}}
+    <div class="card">
+      <h2>{{title}}</h2>
+      <p class="post-date">{{created_at}}</p>
+      <p>{{content}}</p>
+      <p class="post-author">By {{user.name}}</p>
+    </div>
+  {{/each}}
+{{else}}
+  <p>No blog posts yet. Be the first to <a href="/new-post">create one</a>!</p>
+{{/if}}

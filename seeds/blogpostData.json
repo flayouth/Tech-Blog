@@ -1,0 +1,51 @@
+{
+    "users": [
+      {
+        "username": "johndoe",
+        "password": "password1",
+        "posts": [
+          {
+            "title": "My First Blog Post",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+            "date": "2022-01-01T00:00:00Z",
+            "comments": [
+              {
+                "username": "janedoe",
+                "content": "Great post!",
+                "date": "2022-01-02T00:00:00Z"
+              }
+            ]
+          },
+          {
+            "title": "My Second Blog Post",
+            "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "date": "2022-01-05T00:00:00Z",
+            "comments": []
+          }
+        ]
+      }
+    ],
+    "posts": [
+      {
+        "title": "My First Blog Post",
+        "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "username": "johndoe",
+        "date": "2022-01-01T00:00:00Z",
+        "comments": [
+          {
+            "username": "janedoe",
+            "content": "Great post!",
+            "date": "2022-01-02T00:00:00Z"
+          }
+        ]
+      },
+      {
+        "title": "My Second Blog Post",
+        "content": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "username": "johndoe",
+        "date": "2022-01-05T00:00:00Z",
+        "comments": []
+      }
+    ]
+  }
+  
